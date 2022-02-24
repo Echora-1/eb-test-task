@@ -1,4 +1,3 @@
-// eslint-disable-next-line import/no-extraneous-dependencies
 import axios from 'axios';
 
 const AUTH_TOKEN = '63ab652db85025784db873bcd17904932e4f97a2';
