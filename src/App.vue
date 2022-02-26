@@ -22,7 +22,7 @@
             :loading="item.loading"
             :disabled="item.loading"
           >
-            {{ translationStatus(item.status) }}
+            {{ getTitleStatus(item.status) }}
           </v-btn>
         </template>
         <template v-slot:item.statusAction="{ item }">
@@ -122,7 +122,7 @@ export default {
       return new Date(date).toLocaleDateString();
     },
 
-    translationStatus(status) {
+    getTitleStatus(status) {
       switch (status) {
         case 'active':
           return 'активен';
