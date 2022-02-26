@@ -35,7 +35,7 @@
           </button>
         </template>
       </v-data-table>
-      <div class="partners__footer">
+      <div class="partners__footer" v-if="totalPartners">
         <button
           :class="['partners__show-more', {'partners__show-more--disabled':hasShowMore}]"
           @click="showMore"
