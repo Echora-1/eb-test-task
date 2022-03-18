@@ -1,12 +1,7 @@
-/*variables*/
-$common: #F7F7FC;
-
-* {
+*{
   box-sizing: border-box;
-}
-
-body {
-  background-color: $common;
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
 }
 
 a {
